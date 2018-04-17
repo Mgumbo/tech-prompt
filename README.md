@@ -8,7 +8,7 @@
 ### 1. install_docker.sh
 This script installs Docker Community Edition (CE) onto the machine by setting up the Docker repository, adding Docker's official GPG key, and installing the Docker CE package. Details about the installation process (for any operating system) can be found [here](https://docs.docker.com/install/linux/docker-ce/ubuntu/ "Docker Official Installation Document").
 
-*Note: This script installs Docker only on an Ubuntu system. Please see the official Docker installation guide for installation on other operating system.*
+*Note: This script installs Docker only on an Ubuntu system. Please see the official Docker installation guide for installation on another operating system.*
 ### 2. create_assets.sh
 This scripts generates all the files needed for the container to run properly. The files created are:
 1. apache.crt - A unique SSL certificate.
