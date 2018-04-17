@@ -44,7 +44,7 @@ The steps to set up the system for proper utilization are as follows:
 4. Execute _**build_and_run.sh**_.
 5. Enter the command `git clone ssh://admin@localhost:22/home/admin/admin.git` to clone the git server's repository onto your system. This will require password input.
 6. Change directory to the newly created **admin** directory.
-7. Enter the command `git config user.email "<email_address>"`, where `<email_address>` is any email address. This command identifies you to the repository so that you can commit to it.
+7. Enter the command `git config user.email "<email_address>"`, where `<email_address>` is any email address. This command identifies you to the repository so that you can commit to it. *Note: If you already have a global git user configuration on your machine, you may skip this step.*
 
 After the above steps have been completed, the web server and git server can be utilized at will. The web server can be accessed by entering the following URL in your Internet browser: `https://localhost`. The web page will execute all scripts in the repository and display their output to the user.
 
